@@ -1,0 +1,11 @@
+[Unit]
+Description=Retrobox LED-Buttons-Control Service
+DefaultDependencies=false
+
+[Service]
+#Restart=always
+WorkingDirectory=/home/pi/retrobox_led_control
+ExecStart=/usr/bin/python3 /home/pi/retrobox_led_control/./gpiozero_led.py
+
+[Install]
+WantedBy=multi-user.target
