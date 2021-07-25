@@ -21,12 +21,10 @@ def sigterm_handler(*_):
     LED_5.off()
     LED_1.close()
     LED_5.close()
-    sleep(0.1)
     LED_2.off()
     LED_4.off()
     LED_2.close()
     LED_4.close()
-    sleep(0.1)
     LED_3.off()
     LED_3.close()
 #    for device in ALL_GPIO:
