@@ -77,12 +77,10 @@ def initiate_animation():
         sleep(0.04)
 
 def leds_on():
-    LED_3.on()
-    sleep(0.1)
-    LED_2.on()
-    LED_4.on()
-    sleep(0.1)
     LED_1.on()
+    LED_2.on()
+    LED_3.on()
+    LED_4.on()
     LED_5.on()
 
 def main():
