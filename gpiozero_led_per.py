@@ -14,7 +14,7 @@ LED_3 = PWMLED(23)
 LED_4 = PWMLED(22)
 LED_5 = PWMLED(24)
 
-#ALL_GPIO = [LED_2, LED_3, LED_4, LED_5, LED_1]
+#ALL_GPIO = [LED_1, LED_2, LED_3, LED_4, LED_5]
 
 def sigterm_handler(*_):
     LED_1.off()
